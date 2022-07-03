@@ -1,7 +1,7 @@
 // Steps
 // we need to find elements divisble by n
 // iterate over the arr and take out the elements that are divisble and retrun them
-// the best to do the above operation is using filter. It filters the elements out of the array based on given condition
+// the best way to do the above operation is using filter. It filters the elements out of the array based on given condition
 
 // T.C = O(n) one iteration
 // S.C = O(k) here k is the no.of elements that are divisible by n
