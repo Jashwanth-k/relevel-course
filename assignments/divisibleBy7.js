@@ -7,10 +7,10 @@
 // S.C = O(k) here k is the no.of elements that are divisible by n
 
 // code
-const divisbleBy_7 = function (arr, n) {
+const divisbleBy_n = function (arr, n) {
   return arr.filter((ele) => ele % n === 0);
 };
 
 const a = [23, 34, 56, 43, 16, 24, 81, 18];
 const n = 9;
-console.log(divisbleBy_7(a, n));
+console.log(divisbleBy_n(a, n));
