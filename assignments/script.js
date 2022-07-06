@@ -1,16 +1,6 @@
-const secondHighestValue = function (arr) {
-  let firstHighest = -1e10;
-  let secondHighest = -1e10;
-  for (i of arr) {
-    if (i > firstHighest) {
-      secondHighest = firstHighest;
-      firstHighest = i;
-    } else {
-      secondHighest = Math.max(secondHighest, i);
-    }
-  }
-  return secondHighest;
-};
-
-const a = [1, 2, 13, 4, 5, 6, 7, 8, 9, 10];
-console.log(secondHighestValue(a));
+/*
+1 - Logic for  Spiral Matrix slide number 12
+2 - Explod Bom Question Program
+3 - Understand question for rotation by 90 degree (slide number 15)
+4 - Transpose Matrix (Interchange the index) (slide  17)
+*/
